@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: white;
+    text-align: center;
+}
+header {
+    background: linear-gradient(90deg, #ff6f00, #ff3d00);
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    font-size: 2rem;
+}
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+section h2 {
+    margin-top: 1px;
+}
+.balance_container {
+    background-color: #1e1e1e;
+    display: flex;
+    width: 200px;
+    height: 40px;
+    justify-self: end;
+    align-items: center;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.balance_container p {
+    margin-left: 5px;
+    font-size: 14px;
+}
+.game-section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+}
+.game-section img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+.game-description {
+    margin: 20px 0;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+.play-button {
+    background-color: #ff6f00;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.play-button:hover {
+    background-color: #ff3d00;
+}
+footer {
+    margin-top: 30px;
+    padding: 10px;
+    background-color: #1e1e1e;
+    color: #ccc;
+    font-size: 0.9rem;
+}
+.slot-machine {
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 5px;
+    background-color: #ff7700;
+    display: flex;
+    flex-wrap: wrap;
+    width: 685px;
+    height: 400px;
+    justify-content: center;
+    justify-self: center;
+    margin-top: 30px;
+}
+.slot {
+    width: 130px;
+    height: 100px;
+    margin-left: 3.5px;
+    margin-right: 3.5px;
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.spin-button {
+    margin-top: 15px;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    background-color: #ff6f00;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.spin-button:hover {
+    background-color: #ff3d00;
+}
+.WINcontainer{
+    background-color: #1e1e1e;
+    display: flex;
+    width: 300px;
+    height: 50px;
+    align-items: center;
+    justify-self: center;
+    margin-top: 15px;
+
+}
+.WINcontainer p {
+margin-left: 7.5px;
+}
+.slot img {
+    width: 100%;
+    height: 100%;
+}
