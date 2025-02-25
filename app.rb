@@ -1,7 +1,7 @@
 require 'sinatra'
 require 'slim'
 require 'sqlite3'
-require 'becrypt'
+require 'bcrypt'
 
 # Anslut till databasen
 db = SQLite3::Database.new('casino.db')
