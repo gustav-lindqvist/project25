@@ -1,0 +1,25 @@
+doctype html
+html lang="en"
+  head
+    meta charset="UTF-8"
+    meta name="viewport" content="width=device-width, initial-scale=1.0"
+    title Fire Joker Game
+    link rel="stylesheet" href="/public/css/style.css"
+
+  body
+    header Fire Joker Slot
+
+    .balance_container
+      p#balance Balance:
+
+    .slot-machine
+      - (1..20).each do |i|
+        .slot id="slot#{i}"
+          img src="/public/img/firejoker.webp" alt="firejoker"
+
+    .WINcontainer
+      p#WIN WIN:
+
+    button.spin-button onclick="spinReels()" Spin
+
+    script src="/public/javascript/script.js"

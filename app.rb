@@ -9,7 +9,7 @@ db.results_as_hash = true
 
 # Startsida
 get '/' do
-    slim :index
+    slim :layout
   end
 
   # Spelsida
